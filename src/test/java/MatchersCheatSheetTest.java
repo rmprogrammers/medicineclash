@@ -1,3 +1,4 @@
+import org.junit.Ignore;
 import org.junit.Test;
  
 import java.util.List;
@@ -71,6 +72,7 @@ public class MatchersCheatSheetTest {
     }
  
     @Test
+    @Ignore
     public void descriptiveError() {
         int expected = 42;
         assertThat(1, describedAs("The number suppose to be %0",
